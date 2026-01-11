@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>VanBot | Premium WhatsApp Bot</title>
+    <meta name="description" content="WEBSITE LANDING PAGE VANBOT💸🤖" />
+    <meta
+      name="google-site-verification"
+      content="RrldSDXtDxkSMtaDwLSBRR-UFrRmrtWERgKvGZ8C2DE"
+    />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="VANBOT PREMIUM BOT💵" />
+    <meta property="og:title" content="VanBot | Premium WhatsApp Bot" />
+    <meta
+      property="og:description"
+      content="WEBSITE LANDING PAGE VANBOT💸🤖"
+    />
+    <meta
+      property="og:url"
+      content="https://portofolio-ryuuxrpl2.vercel.app/Screenshot%202026-01-11%20204630.png"
+    />
+
+    <meta
+      property="og:image"
+      content="https://portofolio-ryuuxrpl2.vercel.app/Screenshot%202026-01-11%20204630.png"
+    />
+    <meta
+      property="og:image:secure_url"
+      content="https://portofolio-ryuuxrpl2.vercel.app/Screenshot%202026-01-11%20204630.png"
+    />
+    <meta property="og:image:type" content="image/jpeg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="VanBot | Premium WhatsApp Bot" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="VanBot | Premium WhatsApp Bot" />
+    <meta
+      name="twitter:description"
+      content="WEBSITE LANDING PAGE VANBOT💸🤖"
+    />
+    <meta
+      name="twitter:image"
+      content="https://portofolio-ryuuxrpl2.vercel.app/Screenshot%202026-01-11%20204630.png"
+    />
+    <meta name="author" content="Ariel Evan Arpansyah" />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <canvas id="particleCanvas"></canvas>
+
+    <div class="bg-shape shape-1"></div>
+    <div class="bg-shape shape-2"></div>
+
+    <div class="container">
+      <main class="glass-card" id="main-panel">
+        <div id="home-content">
+          <header>
+            <div class="status-wrapper">
+              <span id="bot-status-dot" class="dot-offline"></span>
+              <p id="bot-status-text">MENYAMBUNGKAN...</p>
+            </div>
+            <h1 class="display-text">VAN<span>BOT</span></h1>
+          </header>
+
+          <section class="main-content">
+            <div class="stats-grid">
+              <div class="stat-block">
+                <svg
+                  width="20"
+                  height="20"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2.5"
+                >
+                  <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+                  <circle cx="9" cy="7" r="4"></circle>
+                  <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+                </svg>
+                <span id="user-count">0</span>
+                <label>USERS</label>
+              </div>
+              <div class="stat-block">
+                <svg
+                  width="20"
+                  height="20"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2.5"
+                >
+                  <path
+                    d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"
+                  ></path>
+                </svg>
+                <span id="hit-count">0</span>
+                <label>HITS</label>
+              </div>
+            </div>
+
+            <div class="features-section">
+              <div class="feature-card" onclick="showDetail('rpg')">
+                <svg
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2.5"
+                >
+                  <path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"></path>
+                </svg>
+                <div>
+                  <h4>RPG ADVENTURE</h4>
+                  <p>Cek Detail Fitur Game</p>
+                </div>
+              </div>
+              <div class="feature-card" onclick="showDetail('ai')">
+                <svg
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2.5"
+                >
+                  <circle cx="12" cy="12" r="10"></circle>
+                  <path d="M12 16v-4"></path>
+                  <path d="M12 8h.01"></path>
+                </svg>
+                <div>
+                  <h4>AI & ADMIN</h4>
+                  <p>Cek Detail Fitur Cerdas</p>
+                </div>
+              </div>
+              <div class="feature-card" onclick="showDetail('stamp')">
+                <svg
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2.5"
+                >
+                  <rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect>
+                  <circle cx="8.5" cy="8.5" r="1.5"></circle>
+                  <polyline points="21 15 16 10 5 21"></polyline>
+                </svg>
+                <div>
+                  <h4>CREATIVE TOOLS</h4>
+                  <p>Cek Detail Desain</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="menu-shortcut">
+              <p>MAU MENU LAINNYA? KLIK <span>BUTTON</span> DI BAWAH INI</p>
+            </div>
+          </section>
+
+          <footer>
+            <button
+              class="btn-primary"
+              onclick="window.location.href='https://wa.me/6285122969098'"
+            >
+              HUBUNGI BOT
+            </button>
+          </footer>
+        </div>
+
+        <div id="detail-panel" class="hidden">
+          <div class="detail-header">
+            <button class="back-btn" onclick="hideDetail()">
+              <svg
+                width="20"
+                height="20"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="3"
+              >
+                <line x1="19" y1="12" x2="5" y2="12"></line>
+                <polyline points="12 19 5 12 12 5"></polyline>
+              </svg>
+              BALIK
+            </button>
+            <h2 id="detail-title">DETAIL</h2>
+          </div>
+          <div id="detail-body" class="scroll-area"></div>
+        </div>
+      </main>
+    </div>
+
+    <div class="bg-shape shape-1"></div>
+    <div class="bg-shape shape-2"></div>
+
+    <script type="module" src="script.js"></script>
+  </body>
+</html>
